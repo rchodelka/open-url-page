@@ -15,11 +15,11 @@
     function openURL() {
       const userInput = document.getElementById("inputText").value.trim();
       if (userInput) {
-        const baseUrl = "https://example.com/"; // Change to your desired base URL
+        const baseUrl = "https://bacoff.services.production.betler.superbet.com/customer/"; // Change to your desired base URL
         const fullUrl = baseUrl + encodeURIComponent(userInput);
         window.open(fullUrl, "_blank");
       } else {
-        alert("Please enter some text.");
+        alert("Please enter the user ID.");
       }
     }
   </script>
